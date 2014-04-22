@@ -17,7 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
-
+Plugin 'tmhedberg/matchit'
 "--------------------
 "" for php
 "--------------------
