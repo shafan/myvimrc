@@ -15,9 +15,10 @@ Plugin 'gmarik/vundle'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'                " affiche l'explorateur de dossier
 Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/matchit'
+Plugin 'eshion/vim-sync'                    " synchronise avec un client ftp => ,su
 "--------------------
 "" for php
 "--------------------
