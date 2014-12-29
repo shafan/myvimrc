@@ -1,0 +1,71 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Diverses options
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible                                  " désactivation de la compatibilité avec vi
+call pathogen#infect()	                          "pour pathogen
+call pathogen#helptags()
+set background=dark                               " fond sombre
+colorscheme desert                                " couleur
+syntax enable                                     " activation de la coloration syntaxique
+set number                                        " numérotation des lignes
+set autoindent                                    " indentation automatique avancée
+set smartindent                                   " indentation plus intelligente
+set laststatus=2                                  " ajoute une barre de status
+set backspace=indent,eol,start                    " autorisation du retour arrière
+set history=50                                    " historique de 50 commandes
+set ruler                                         " affiche la position courante au sein du fichier
+set showcmd                                       " affiche la commande en cours
+set shiftwidth=4                                  " nombre de tabulation pour l'indentation
+set tabstop=4					  				  " nombre d'espace pour une tabulation
+set showmatch                                     " vérification présence ([ ou { à la frappe de )] ou }
+filetype plugin indent on                         " détection automatique du type de fichier
+autocmd FileType text setlocal textwidth=72       " les fichiers de type .txt sont limites à 72 caractères par ligne
+set fileformats=unix,mac,dos                      " gestion des retours chariot en fonction du type de fichier
+set viewdir=/home/pierre/.vim/saveview/        " répertoire pour sauvegarder les vues, utiles pour les replis manuels
+set cursorline                                    " afficher la ligne courante
+hi CursorLine guibg=#4d4d4d                       " couleur de fond pour la ligne courante
+set foldcolumn=2                                  " repère visuel pour les folds
+set guioptions-=T                                 " supprime la barre d'outils
+set incsearch                                     " recherche incrémentale
+set hlsearch                                      " surligne les résultats de la recherche
+set ignorecase                                    " ne pas prendre en compte la casse lors des recherches
+set guifont=Courier\ New\ 10                      " police de caractère
+set nolist					                      " on n'affiche pas les caractères non imprimables
+set listchars=eol:¶,tab:..,trail:~		          " paramétrage des caractères non imprimables au cas où l'on souhaiterait les afficher
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Omni-completion par CTRL-X_CTRL-O
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+au filetype html        set omnifunc=htmlcomplete#CompleteTags
+au filetype css         set omnifunc=csscomplete#CompleteCSS
+au filetype javascript  set omnifunc=javascriptcomplete#CompleteJS
+au filetype php         set omnifunc=phpcomplete#CompletePHP
+au filetype sql         set omnifunc=sqlcomplete#Complete
+au filetype python      set omnifunc=pythoncomplete#Complete
+au filetype xml         set omnifunc=xmlcomplete#CompleteTags
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Mapping pour l'activation de l'explorateur
+""système dans un répertoire spécifié
+""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <silent> <F9> :NERDTree /home/pierre/<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Map pour se déplacer dans les onglets
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+map <tab> gt
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Dictionnaire français
+""Liste des propositions par CTRL-X_CTRL-K
+""""""""""""""""""""""""""""""""""""""""""""""""""
+set dictionary+=/usr/share/dict/french
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"Correction orthographique
+""Liste des propositions par CTRL-X_s
+""""""""""""""""""""""""""""""""""""""""""""""""""
+set spellsuggest=5                                   " on affiche uniquement les 5 premières propositions 
+autocmd BufEnter *.txt set spell                     " correction orthographique dans les fichiers textes
+autocmd BufEnter *.txt set spelllang=fr,en           " correction orthographique dans les fichiers textes

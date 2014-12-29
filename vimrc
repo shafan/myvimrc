@@ -1,4 +1,5 @@
-"--------------------
+"
+"-------------------
 "" Use Vundle to manage bundles
 "--------------------
 set nocompatible		" désactivation de la compatibilité avec vi
@@ -20,7 +21,8 @@ Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/matchit'
 Plugin 'eshion/vim-sync'                    " synchronise avec un client ftp => ,su
 Plugin 'altercation/vim-colors-solarized'   " jeux de couleur
-Plugin 'bling/vim-airline'
+Plugin 'bling/vim-airline'                  " Ajoute un jolie esthetique avec solarized
+Plugin 'sjbach/lusty'                       " Navigeur des les dossiers
 "--------------------
 "" for php
 "--------------------
@@ -44,6 +46,7 @@ Plugin 'evidens/vim-twig'
 "" General Settings
 "--------------------
 let mapleader = ","
+
 " ThÃ¨me de couleur par dÃ©faut:
 " colorscheme peachpuff                         
 " Autre thÃ¨mes possibles: desert, delek, zellner, torte, elflord, evening, pablo, morning, peachpuff, blue, murphy, ron, zellner, darkblue, desert, koehler, and shine
@@ -58,14 +61,11 @@ endif
 colorscheme solarized
 
 " liste des couleur : ll /usr/share/vim/vim71/colors/
-set number                                   " numÃ©rotation des lignes
 set autoindent                               " indentation automatique avancÃ©e
 set smartindent                              " indentation plus intelligente
 set backspace=indent,eol,start                " autorisation du retour arriÃ¨re
 set bs=2                                      " redÃ©finition du backspace
 set history=50                                " fixe l'historique Ã  50 commandes maxi
-set ruler                                     " affiche la position courante au sein du fichier
-set showcmd                                   " affiche la commande en cours
 set shiftwidth=4                              " taille des tabulations (nb d'espace)
 set softtabstop=4                             " taille des tabulations mixtes (tabulations et espaces)
 set tabstop=4                                 " taille des tabulations Ã l'affichage (nb d'espace)
@@ -75,15 +75,23 @@ filetype plugin indent on                     " dÃ©tection automatique du type
 " autocmd FileType text setlocal textwidth=72  " les fichiers de type .txt sont limitÃ©s Ã  72 caractÃ¨res par ligne
 set fileencoding=utf-8
 set fileformats=unix,mac,dos                  " gestion des retours chariot en fonction du type de fichier
-set hlsearch                                  " surligne les rÃ©sultats de la recherche
-" set nohls                                    " ne pas surligner les rÃ©sultats de la recherche
-set incsearch                                 " recherche en mÃªme temps que la saisie
-set ignorecase                                " ne pas prendre en compte la casse pour les recherches
 "set noic                                      " Prendre en compte la casse pour les recherches
-set smartcase                                 " recherche respectueuse de la case quand une majuscule est saisie
+"set so=2                                      " Place le curseur sur la 2Ã¨me ligne lors de mouvements verticaux
+
+" AFFICHAGE
+set number                                   " numÃ©rotation des lignes
+set ruler                                     " affiche la position courante au sein du fichier
+set showcmd                                   " affiche la commande en cours
 set cursorline                                " met en avant la ligne courante
 "set cursorcolumn                             " met en avant la colonne courante
-set so=2                                      " Place le curseur sur la 2Ã¨me ligne lors de mouvements verticaux
+
+" RECHERCHE
+set hlsearch                                  " surligne les rÃ©sultats de la recherche
+set incsearch                                 " recherche en mÃªme temps que la saisie
+set smartcase                                 " recherche respectueuse de la case quand une majuscule est saisie
+set ignorecase                                " ne pas prendre en compte la casse pour les recherches
+" set nohls                                    " ne pas surligner les rÃ©sultats de la recherche
+
 
 "FOR NERDTREE
 nnoremap <silent> <F9> :NERDTree<CR>
@@ -94,3 +102,10 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 "FOR AIRLINE
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+"FOR LUSTYEXPLORER
+set hidden
+
+"Pour rapprocher la touche echap
+:imap ;; <Esc>
+:map ;; <Esc>

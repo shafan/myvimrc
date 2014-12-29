@@ -1,0 +1,734 @@
+# Ce fichier viminfo a été généré par Vim 7.3.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/bin
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:q
+:wq
+:q!
+:read .htaccess
+:w
+:%d
+:'<,'>%d
+:%s
+:.!q
+:w!
+:w !sudo tee %
+::w !sudo tee %
+:w !su tee %
+:w! sudo tee%
+:wq su 
+:su
+:wq start
+:wq startOpenErp.sh
+:wq stopPlone.sh
+:wq startPlone.sh
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?/bin/bash
+?/register
+?/redister
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+"0	CHAR	0
+	votre_nom_de_bdd'
+"1	CHAR	0
+	$mysqli = new mysqli($serveur, $user, $pass, $base);
+	
+	/*
+	utilisation de la méthode connect_error
+	qui renvoie un message d'erreur si la connexion échoue
+	*/
+	if ($mysqli->connect_error) {
+	    echo 'connexion impossible... :'.$mysqli->connect_error;
+	}
+	else {
+	    echo 'connexion réussie : '.$mysqli->host_info;
+	} 
+"2	LINE	0
+	}
+"3	LINE	0
+	    die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
+"4	LINE	0
+	if ($mysqli->connect_error) {
+"5	BLOCK	84
+	Link to database cannot be established: SQLSTATE[28000] [1045] Access denied for user
+"6	LINE	0
+	[Wed Oct 16 17:56:21 2013] [error] [client 78.234.189.212] PHP Parse error:  syntax error, unexpected '!' in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:56:21 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:56:21 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:56:21 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:57:04 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:57:04 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:57:04 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:57:04 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:57:04 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:58:10 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:58:10 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:58:10 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:58:10 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:58:10 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+"7	LINE	0
+	[Wed Oct 16 17:53:19 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:53:19 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:53:19 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:53:19 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:53:19 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+"8	LINE	0
+	[Wed Oct 16 17:51:06 2013] [error] [client 78.234.189.212] PHP Fatal error:  Class 'AccueilController' not found in /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php on line 57, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:51:06 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:51:06 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:51:06 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:51:06 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:53 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:53 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:53 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:53 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:53 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:54 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 80, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:54 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:54 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:54 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:52:54 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+"9	LINE	0
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Notice:  Undefined variable: isContrMod in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 90, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Notice:  Undefined variable: isContrMod in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 90, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   3. Autoload->load() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 90, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:44:34 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 91, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:02 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 91, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:45:03 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 91, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:06 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:07 2013] [error] [client 78.234.189.212] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 87, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:07 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:07 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:07 2013] [error] [client 78.234.189.212] PHP   2. require_once() /srv/datalbab/geoflasheur.fr/www/index.php:5, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 91, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:08 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP Fatal error:  Call to undefined function \xc2\xa0() in /srv/datalbab/geoflasheur.fr/www/config/Autoload.php on line 91, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP Stack trace:, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP   1. {main}() /srv/datalbab/geoflasheur.fr/www/index.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP   2. DispatcherCore->__construct() /srv/datalbab/geoflasheur.fr/www/index.php:19, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP   3. DispatcherCore->loadController() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:38, referer: http://ot.geoflasheur.fr/MBNWUS/
+	[Wed Oct 16 17:46:10 2013] [error] [client 78.234.189.212] PHP   4. Autoload->load() /srv/datalbab/geoflasheur.fr/www/core/Dispatcher.php:0, referer: http://ot.geoflasheur.fr/MBNWUS/
+""-	CHAR	0
+	:
+
+# Marques dans le fichier :
+'0  89  0  ~/.viminfo
+'1  60  40  ~/Téléchargements/accueil.php
+'2  1  24  ~/.vimrc
+'3  1  0  ~/Téléchargements/accueil.php
+'4  2  0  ~/.vimrc
+'5  27  0  ~/.vimrc
+'6  131  0  ~/Téléchargements/accueil.php
+'7  85  33  /tmp/fz3temp-1/wp-config.php
+'8  40  0  /tmp/fz3temp-1/index.php
+'9  1  0  /tmp/fz3temp-1/informations.php
+
+# Liste de sauts (le plus récent en premier) :
+-'  89  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  60  40  ~/Téléchargements/accueil.php
+-'  1  0  ~/Téléchargements/accueil.php
+-'  1  24  ~/.vimrc
+-'  2  0  ~/.vimrc
+-'  27  0  ~/.vimrc
+-'  131  0  ~/Téléchargements/accueil.php
+-'  85  33  /tmp/fz3temp-1/wp-config.php
+-'  31  18  /tmp/fz3temp-1/wp-config.php
+-'  25  18  /tmp/fz3temp-1/wp-config.php
+-'  22  18  /tmp/fz3temp-1/wp-config.php
+-'  1  0  /tmp/fz3temp-1/wp-config.php
+-'  40  0  /tmp/fz3temp-1/index.php
+-'  1  0  /tmp/fz3temp-1/index.php
+-'  1  0  /tmp/fz3temp-1/informations.php
+-'  8  5  /tmp/fz3temp-1/informations.php
+-'  15  88  ~/Téléchargements/test.php
+-'  12  0  ~/Téléchargements/test.php
+-'  1  1  ~/Téléchargements/test.php
+-'  1  0  /etc/hosts
+-'  8  0  /etc
+-'  1  0  /etc/apache2/ports.conf
+-'  7  0  ~/.local/share/applications/eclipse.desktop
+-'  1  0  ~/.local/share/applications/eclipse.desktop
+-'  9  9  ~/.local/share/applications/eclipse.desktop
+-'  10  0  ~/.local/share/applications/[Desktop
+-'  1  0  ~/.local/share/applications/[Desktop
+-'  21  0  ~/.local/share/applications/mimeapps.list
+-'  1  0  ~/.local/share/applications/mimeapps.list
+-'  116  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  1  0  /etc/network/interfaces
+-'  1348  23  ~/test.txt
+-'  1376  0  ~/test.txt
+-'  1  0  /tmp/APk95Xms
+-'  1  0  /tmp/hY8QX3Q9
+-'  1  0  /tmp/ZrR+EcqV
+-'  1  0  /tmp/5U6b+MUX
+-'  1  0  /tmp/fQJ5ItSs
+-'  1  0  /tmp/fz3temp-1/error.log
+-'  1  0  ~/Dropbox/SCOP/LBAB/Signatures/code-signature-pierre.html
+-'  1  0  /tmp/laurent.vcf
+-'  69  15  ~/.bashrc
+-'  23  0  /tmp/crontab.5pcqrN/crontab
+-'  1  0  /tmp/crontab.5pcqrN/crontab
+-'  23  55  /tmp/crontab.7EZmkA/crontab
+-'  1  0  /tmp/crontab.7EZmkA/crontab
+-'  1  0  /tmp/crontab.WfSKty/crontab
+-'  610  0  /tmp/fz3temp-1/hybridauth.log
+-'  1  0  /tmp/fz3temp-1/hybridauth.log
+-'  7  0  /tmp/fz3temp-1/monolog.log
+-'  1  0  /tmp/fz3temp-1/monolog.log
+-'  132  0  /tmp/fz3temp-1/hybridauth.log
+-'  1  0  ~/lbab/geoflasheur/.git/COMMIT_EDITMSG
+-'  88  0  ~/Téléchargements/caldavzap/config.js
+-'  235  0  ~/Téléchargements/caldavzap/config.js
+-'  1  0  ~/Téléchargements/caldavzap/config.js
+-'  1  0  /tmp/fz3temp-1/changelog.txt
+-'  27  98  /tmp/fz3temp-1/readme.txt
+-'  1  0  /tmp/fz3temp-1/readme.txt
+-'  40  0  /tmp/fz3temp-1/config.inc
+-'  1  0  /tmp/fz3temp-1/config.inc
+-'  46  0  /tmp/fz3temp-1/readme.txt
+-'  28  0  /tmp/fz3temp-1/cache.manifest
+-'  1  0  /tmp/fz3temp-1/cache.manifest
+-'  58  19  /tmp/fz3temp-1/config.inc
+-'  16  0  /tmp/fz3temp-1/README 2.md
+-'  1  0  /tmp/fz3temp-1/README 2.md
+-'  28  0  /tmp/fz3temp-1/README.md
+-'  1  0  /tmp/fz3temp-1/README.md
+-'  1  6  /tmp/fz3temp-1/LICENSE
+-'  591  0  /tmp/fz3temp-1/hybridauth.log
+-'  5  40  ~/lbab/geoflasheur/composer.json
+-'  1  0  ~/lbab/geoflasheur/composer.json
+-'  3  39  ~/lbab/geoflasheur/composer.json
+-'  4  31  ~/lbab/geoflasheur/composer.json
+-'  7  0  ~/lbab/geoflasheur/composer.json
+-'  1  0  ~/.gconf/apps/evolution/mail/%gconf.xml
+-'  1  0  /var/mail/pierre
+-'  112  0  ~/.bashrc
+-'  113  0  ~/.bashrc
+-'  110  1  ~/.bashrc
+-'  111  0  ~/.bashrc
+-'  3  1  ~/lbab/geoflasheur/.git/MERGE_MSG
+-'  1  0  ~/lbab/geoflasheur/.git/MERGE_MSG
+-'  34  34  ~/github/jQuery.qrcode/src/demo/index.html
+-'  1  0  ~/github/jQuery.qrcode/src/demo/index.html
+-'  509  2  ~/github/jQuery.qrcode/src/jquery.qrcode.js
+-'  510  3  ~/github/jQuery.qrcode/src/jquery.qrcode.js
+-'  448  1  ~/github/jQuery.qrcode/src/jquery.qrcode.js
+-'  1  0  ~/github/jQuery.qrcode/src/jquery.qrcode.js
+-'  109  0  ~/lbab/jQuery.qrcode/makefile.js
+-'  1  0  ~/lbab/jQuery.qrcode/makefile.js
+-'  1046  0  /tmp/fz3temp-1/filter.module
+-'  1  0  /tmp/fz3temp-1/filter.module
+-'  218  0  ~/lbab/prestashop_1.5.4.1/prestashop/classes/db/MySQL.php
+-'  1  0  ~/lbab/prestashop_1.5.4.1/prestashop/classes/db/MySQL.php
+-'  1  0  ~/lbab/prestashop_1.5.4.1/prestashop/classes/db/Db.php
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.viminfo
+	"	89	0
+
+> ~/Téléchargements/accueil.php
+	"	60	40
+	.	15	0
+	+	15	0
+
+> ~/.vimrc
+	"	1	24
+	^	1	25
+	.	1	25
+	+	2	0
+	+	18	22
+	+	3	0
+	+	28	0
+	+	27	0
+	+	2	0
+	+	1	25
+	l	2	0
+
+> /tmp/fz3temp-1/wp-config.php
+	"	85	33
+	^	31	34
+	.	31	33
+	+	22	19
+	+	25	33
+	+	28	30
+	+	31	33
+
+> /tmp/fz3temp-1/.htaccess
+	"	1	17
+	.	1	0
+	+	1	0
+
+> /tmp/fz3temp-1/index.php
+	"	40	0
+
+> /tmp/fz3temp-1/informations.php
+	"	1	0
+
+> ~/Téléchargements/test.php
+	"	15	88
+	^	15	89
+	.	15	88
+	+	1	0
+	+	12	0
+	+	2	21
+	+	3	19
+	+	4	19
+	+	5	19
+	+	12	0
+	+	12	0
+	+	15	88
+
+> /etc/hosts
+	"	1	0
+
+> /etc/apache2/ports.conf
+	"	1	0
+
+> ~/.local/share/applications/eclipse.desktop
+	"	7	0
+	^	7	1
+	.	7	0
+	+	10	23
+	+	1	3
+	+	9	10
+	+	7	0
+
+> ~/.local/share/applications/[Desktop
+	"	10	0
+	^	10	0
+	.	9	25
+	+	1	8
+	+	9	25
+
+> ~/.local/share/applications/mimeapps.list
+	"	21	0
+
+> ~/.bashrc
+	"	116	0
+	^	117	0
+	.	116	0
+	+	119	19
+	+	119	0
+	+	110	67
+	+	110	2
+	+	110	68
+	+	110	2
+	+	110	2
+	+	110	38
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	110	2
+	+	111	0
+	+	110	66
+	+	111	52
+	+	110	111
+	+	111	35
+	+	110	2
+	+	111	14
+	+	111	0
+	+	110	2
+	+	111	0
+	+	112	25
+	+	116	37
+	+	112	0
+	+	116	0
+
+> /etc/network/interfaces
+	"	1	0
+
+> ~/test.txt
+	"	1348	23
+	^	1348	24
+	.	1348	24
+	+	1362	0
+	+	1	32
+	+	1348	24
+
+> /tmp/APk95Xms
+	"	1	0
+
+> /tmp/hY8QX3Q9
+	"	1	0
+
+> /tmp/ZrR+EcqV
+	"	1	0
+
+> /tmp/5U6b+MUX
+	"	1	0
+
+> /tmp/fQJ5ItSs
+	"	1	0
+
+> /tmp/fz3temp-1/error.log
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Dropbox/SCOP/LBAB/Signatures/code-signature-pierre.html
+	"	1	0
+
+> /tmp/laurent.vcf
+	"	1	0
+
+> /tmp/crontab.5pcqrN/crontab
+	"	23	0
+	.	23	0
+	+	23	0
+
+> /tmp/crontab.7EZmkA/crontab
+	"	23	55
+	^	23	56
+	.	23	0
+	+	23	0
+
+> /tmp/crontab.WfSKty/crontab
+	"	1	0
+
+> /tmp/fz3temp-1/hybridauth.log
+	"	610	0
+	.	1	0
+	+	1	1898
+	+	1	0
+
+> /tmp/fz3temp-1/monolog.log
+	"	7	0
+
+> ~/lbab/geoflasheur/.git/COMMIT_EDITMSG
+	"	1	0
+	^	1	0
+	.	1	4
+	+	1	4
+
+> /tmp/fz3temp-1/changelog.txt
+	"	1	0
+
+> ~/Téléchargements/caldavzap/config.js
+	"	88	0
+
+> /tmp/fz3temp-1/config.inc
+	"	7	0
+
+> /tmp/fz3temp-1/readme.txt
+	"	27	98
+
+> /tmp/fz3temp-1/config_davical.txt
+	"	13	8
+
+> /tmp/fz3temp-1/cache.manifest
+	"	28	0
+
+> /tmp/fz3temp-1/README 2.md
+	"	16	0
+
+> /tmp/fz3temp-1/README.md
+	"	28	0
+
+> /tmp/fz3temp-1/LICENSE
+	"	1	6
+
+> ~/lbab/geoflasheur/composer.json
+	"	5	40
+	^	5	41
+	.	5	2
+	+	1	0
+	+	8	0
+	+	2	0
+	+	3	0
+	+	6	0
+	+	7	0
+	+	4	32
+	+	3	39
+	+	5	2
+
+> ~/.gconf/apps/evolution/mail/%gconf.xml
+	"	1	0
+
+> /var/mail/pierre
+	"	1	0
+
+> ~/lbab/geoflasheur/.git/MERGE_MSG
+	"	3	1
+	^	3	2
+	.	3	2
+	+	3	2
+
+> ~/github/jQuery.qrcode/src/demo/index.html
+	"	34	34
+	^	34	35
+	.	34	34
+	+	34	34
+
+> ~/github/jQuery.qrcode/src/jquery.qrcode.js
+	"	509	2
+	^	509	3
+	.	510	4
+	+	446	3
+	+	448	2
+	+	445	2
+	+	452	10
+	+	453	9
+	+	454	14
+	+	455	13
+	+	456	14
+	+	457	14
+	+	458	14
+	+	455	14
+	+	459	10
+	+	462	9
+	+	463	9
+	+	464	9
+	+	470	9
+	+	471	9
+	+	472	9
+	+	473	9
+	+	474	9
+	+	475	9
+	+	477	9
+	+	478	9
+	+	479	9
+	+	480	9
+	+	481	9
+	+	482	9
+	+	483	9
+	+	484	9
+	+	486	9
+	+	487	9
+	+	491	24
+	+	492	23
+	+	493	23
+	+	494	23
+	+	495	23
+	+	496	22
+	+	501	9
+	+	502	2
+	+	510	4
+
+> ~/lbab/jQuery.qrcode/makefile.js
+	"	109	0
+
+> /tmp/fz3temp-1/filter.module
+	"	1046	0
+
+> ~/lbab/prestashop_1.5.4.1/prestashop/classes/db/MySQL.php
+	"	218	0
+
+> ~/lbab/prestashop_1.5.4.1/prestashop/classes/db/Db.php
+	"	1	0
+
+> ~/lbab/geoflasheur/structureAppModele/cache/class_index.php
+	"	13	0
+
+> /etc/apache2/sites-available/geoflasheur
+	"	4	5
+	^	4	6
+	.	4	5
+	+	4	5
+
+> ~/lbab/geoflasheur/core/Router.php
+	"	16	19
+
+> ~/lbab/geoflasheur/core/router.php
+	"	1	0
+
+> ~/lbab/lbab/.git/COMMIT_EDITMSG
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/lbab/lbab/.gitignore
+	"	11	0
+	^	11	0
+	.	10	21
+	+	10	21
+
+> /tmp/fz3temp-1/register.phtml
+	"	1	0
+
+> /tmp/fz3temp-1/form.phtml
+	"	55	38
+	^	55	38
+	.	55	37
+	+	4	52
+	+	57	76
+	+	57	76
+	+	58	0
+	+	59	0
+	+	56	0
+	+	55	37
+
+> /tmp/fz3temp-1/access.log
+	"	32	54
+
+> ~/developpeur/Kibana/KibanaConfig.rb
+	"	152	0
+
+> ~/bashrc
+	"	1	0
+
+> /etc/apache2/sites-enabled/000-default
+	"	1	0
+
+> /etc/apache2/sites-available/default
+	"	1	0
+	^	15	28
+	.	15	27
+	+	7	19
+	+	11	19
+	+	20	19
+	+	12	18
+	+	13	15
+	+	15	37
+	+	14	30
+	+	15	27
+
+> /usr/share/.bashrc
+	"	1	0
+
+> /etc/apache2/conf.d/security
+	"	31	0
+
+> /etc/apache2/apache2.conf
+	"	267	0
+
+> /usr/share/applications/aptana.desktop
+	"	1	5
+	^	1	6
+	.	1	6
+	+	10	0
+	+	1	6
+
+> /etc/udev/rules.d/51-android.rules
+	"	1	0
+
+> ~/Titanium_Studio_Workspace/Kitchen
+	"	1	0
+
+> /etc/postgresql/9.1/main/postgresql.conf
+	"	60	5
+	.	59	0
+	+	59	0
+
+> /opt/openerp/start
+	"	1	0
+	^	1	0
+	.	1	0
+	+	3	63
+	+	1	0
+
+> ~/www/Celine/index.html
+	"	1	0
+
+> ~/startOpenErp.sh
+	"	2	11
+	^	2	12
+	.	2	12
+	+	2	12
+
+> /usr/share/vim/vim73/doc/help.txt
+	"	112	0
+
+> ~/www/ElsassDeal/.htaccess
+	"	1	0
+
+> /etc/php5/conf.d/ming.ini
+	"	1	0
+	^	1	1
+	.	1	1
+	+	1	1
+
+> ~/Téléchargements/ballon
+	"	1	0
+
+> ~/.conkyrc
+	"	1	0
+	^	1	0
+	.	1	0
+	+	2	10
+	+	6	16
+	+	4	17
+	+	3	37
+	+	1	59
+	+	5	29
+	+	8	4
+	+	1	0
+	+	3	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	1	8
+	+	1	0
+	a	1	0
+
+> /etc/php5/apache2/php.ini
+	"	697	0
+	.	626	14
+	+	626	14
