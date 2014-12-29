@@ -19,11 +19,14 @@ Plugin 'scrooloose/nerdtree'                " affiche l'explorateur de dossier
 Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/matchit'
 Plugin 'eshion/vim-sync'                    " synchronise avec un client ftp => ,su
+Plugin 'altercation/vim-colors-solarized'   " jeux de couleur
+Plugin 'bling/vim-airline'
 "--------------------
 "" for php
 "--------------------
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'shawncplus/phpcomplete.vim'
+Plugin 'taglist.vim'
 
 "--------------------
 "" for javascript
@@ -32,18 +35,31 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'itspriddle/vim-jquery'
 
 "--------------------
+"" for tremplate
+"--------------------
+Plugin 'evidens/vim-twig'
+
+
+"--------------------
 "" General Settings
 "--------------------
 let mapleader = ","
-set background=dark			                      " fond sombre
 " ThÃ¨me de couleur par dÃ©faut:
 " colorscheme peachpuff                         
 " Autre thÃ¨mes possibles: desert, delek, zellner, torte, elflord, evening, pablo, morning, peachpuff, blue, murphy, ron, zellner, darkblue, desert, koehler, and shine
-colorscheme desert
-" liste des couleur : ll /usr/share/vim/vim71/colors/
 syntax enable                                 " activation de la coloration syntaxique
+set t_Co=256
+let hour = strftime("%H")
+if 6<=hour && hour <18
+    set background=light		                  " fond sombre
+else
+    set background=dark
+endif
+colorscheme solarized
+
+" liste des couleur : ll /usr/share/vim/vim71/colors/
 set number                                   " numÃ©rotation des lignes
-" "set autoindent                               " indentation automatique avancÃ©e
+set autoindent                               " indentation automatique avancÃ©e
 set smartindent                              " indentation plus intelligente
 set backspace=indent,eol,start                " autorisation du retour arriÃ¨re
 set bs=2                                      " redÃ©finition du backspace
@@ -71,3 +87,10 @@ set so=2                                      " Place le curseur sur la 2Ã¨me 
 
 "FOR NERDTREE
 nnoremap <silent> <F9> :NERDTree<CR>
+
+"FOR TAGLIST
+nnoremap <silent> <F8> :TlistToggle<CR>
+
+"FOR AIRLINE
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
