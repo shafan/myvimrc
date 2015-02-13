@@ -21,7 +21,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tmhedberg/matchit'
 Plugin 'eshion/vim-sync'                    " synchronise avec un client ftp => ,su
 Plugin 'altercation/vim-colors-solarized'   " jeux de couleur
-Plugin 'bling/vim-airline'                  " Ajoute un jolie esthetique avec solarized
+Plugin 'bling/vim-airline'                  " Ajoute un jolie esthétique avec solarized
 "--------------------
 "" for php
 "--------------------
@@ -46,6 +46,9 @@ Plugin 'evidens/vim-twig'
 "--------------------
 let mapleader = ","
 
+
+
+
 " ThÃ¨me de couleur par dÃ©faut:
 " colorscheme peachpuff                         
 " Autre thÃ¨mes possibles: desert, delek, zellner, torte, elflord, evening, pablo, morning, peachpuff, blue, murphy, ron, zellner, darkblue, desert, koehler, and shine
@@ -60,7 +63,7 @@ endif
 colorscheme solarized
 
 " liste des couleur : ll /usr/share/vim/vim71/colors/
-set autoindent                               " indentation automatique avancÃ©e
+set autoindent                               " indentation automatique avancé
 set smartindent                              " indentation plus intelligente
 set backspace=indent,eol,start                " autorisation du retour arriÃ¨re
 set bs=2                                      " redÃ©finition du backspace
@@ -101,4 +104,18 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 "FOR AIRLINE
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+
+"CORRECTION ORTHOGRAPHIQUE
+" spell checking
+function! ToggleSpellLang()
+    " toggle between en and fr
+    if &spelllang =~# 'en'
+        :set spelllang=fr_FR
+    else
+        :set spelllang=en
+    endif
+endfunction
+nnoremap <F6> :setlocal spell!<CR> " toggle spell on or off
+nnoremap <F7> :call ToggleSpellLang()<CR> " toggle language
 
