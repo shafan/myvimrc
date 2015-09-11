@@ -27,7 +27,7 @@ Plugin 'bling/vim-airline'                  " Ajoute un jolie esthétique avec s
 "--------------------
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'taglist.vim'
+"Plugin 'taglist.vim'
 
 "--------------------
 "" for javascript
@@ -36,10 +36,19 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'itspriddle/vim-jquery'
 
 "--------------------
+"" for Latex
+"--------------------
+Plugin 'vim-latex/vim-latex'
+
+"--------------------
 "" for tremplate
 "--------------------
 Plugin 'evidens/vim-twig'
 
+"--------------------
+"" other
+"--------------------
+Plugin 'TwitVim'
 
 "--------------------
 "" General Settings
@@ -119,3 +128,7 @@ endfunction
 nnoremap <F6> :setlocal spell!<CR> " toggle spell on or off
 nnoremap <F7> :call ToggleSpellLang()<CR> " toggle language
 
+" Pour pouvoir déplier
+" très lent
+"let g:php_folding=2
+"set foldmethod=syntax
